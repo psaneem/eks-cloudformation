@@ -4,9 +4,9 @@ set -e
 
 # EDIT THIS:
 #------------------------------------------------------------------------------#
-NUM_WORKER_NODES=3
-WORKER_NODES_INSTANCE_TYPE=t2.micro
-STACK_NAME=test-cluster
+NUM_WORKER_NODES=2
+WORKER_NODES_INSTANCE_TYPE=t2.small
+STACK_NAME=cluster-demo
 KEY_PAIR_NAME=qs-us-east-1
 #------------------------------------------------------------------------------#
 
